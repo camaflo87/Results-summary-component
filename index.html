@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="build/css/style.css" />
+    <title>Frontend Mentor | Results su mmary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <main class="contenedor">
+      <section class="zonaUno">
+        
+          <h3>Your Result</h3>
+          <div class="circulo">
+            <p class="circulo_number">76</p>
+            <p class="circulo_total">of 100</p>
+          </div>
+            <p class="zonaUno__Great">Great</p>
+            <p class="zonaUno__descripcion">You scored higher than 65% of the people who have taken these tests.</p>
+        
+      </section><!--Cierre zonaUno-->
+
+      <section class="zonaDos">
+        <h3>Summary</h3>
+        <div class="valores">
+          <div class="campo campo__reaction--uno">
+            <div class="alertas">
+              <img src="./assets/images/icon-reaction.svg" class="img1" alt="reaction">
+              <p class="campo__reaction cat1">Reaction</p>
+            </div>
+            <p class="indicador"><span class="span1">80</span> / 100</p>
+          </div>
+
+          <div class="campo campo__memory--dos">
+            <div class="alertas">
+              <img src="./assets/images/icon-memory.svg" class="img2" alt="memory">
+              <p class="campo__memory cat2">Memory</p>
+            </div>
+            <p class="indicador"><span class="span2">92</span> / 100</p>
+          </div>
+
+          <div class="campo campo__verbal--tres">
+            <div class="alertas">
+              <img src="./assets/images/icon-verbal.svg" class="img3" alt="verbal">
+              <p class="campo__verbal cat3">Verbal</p>
+            </div>
+            <p class="indicador"><span class="span3">61</span> / 100</p>
+          </div>
+
+          <div class="campo campo__visual--cuatro">
+            <div class="alertas">
+              <img src="./assets/images/icon-visual.svg" class="img4" alt="visual">
+              <p class="campo__visual cat4">Visual</p>
+            </div>
+            <p class="indicador"><span class="span4">72</span> / 100</p>
+          </div>
+        </div> <!--Cierre valores-->
+
+        <button class="button">Continue</button>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Carlos Alberto Martinez Florez</a>.
+    </div>
+
+    <script src="/build/js/file.js"></script>
+  </body>
+</html>
